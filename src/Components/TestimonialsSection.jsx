@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import RatingImg from "../assets/Untitled-design-60-1024x576.jpg"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -63,7 +64,7 @@ const TestimonialsSection = () => {
           RK Fitness Gym is one of the largest gyms in Dwarka and the most reviewed gym of Delhi
         </p>
         <img
-          src="src/assets/Untitled-design-60-1024x576.jpg"
+          src={RatingImg}
           alt="RK Fitness Rating"
           className="mx-auto rounded-xl shadow-lg w-full max-w-xl"
         />

@@ -1,6 +1,10 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Thumbnail from "../assets/C1C_jSkBh4Y-HD.jpg";
+import img1 from "../assets/Untitled-design-54-1024x576.jpg";
+import img2 from "../assets/Untitled-design-50.jpg";
+import img3 from "../assets/Untitled-design-55.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -65,9 +69,7 @@ const AboutDwarkaGym = () => {
   }, []);
 
   const gallery = [
-    "src/assets/Untitled-design-54-1024x576.jpg",
-    "src/assets/Untitled-design-50.jpg",
-    "src/assets/Untitled-design-55.jpg",
+   img1, img2, img3
   ];
 
   return (
@@ -115,7 +117,7 @@ const AboutDwarkaGym = () => {
           }
         >
           <img
-            src="src/assets/C1C_jSkBh4Y-HD.jpg" // Replace with your video thumbnail
+            src={Thumbnail} // Replace with your video thumbnail
             alt="Video Preview"
             className="w-full h-auto"
           />

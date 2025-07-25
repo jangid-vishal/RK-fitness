@@ -1,6 +1,9 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import img1 from "../assets/Untitled-design-63.jpg";
+import img2 from "../assets/Untitled-design-53.jpg";
+import img3 from "../assets/Untitled-design-54.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -18,12 +21,10 @@ const ExpertiseSection = () => {
             opacity: 0,
             y: 100,
             scale: 0.95,
-            rotate:0,
-            
+            rotate: 0,
           },
           {
-            
-            rotate:360,
+            rotate: 360,
             opacity: 1,
             y: 0,
             scale: 1,
@@ -65,19 +66,19 @@ const ExpertiseSection = () => {
 
   const imageData = [
     {
-      src: "src/assets/Untitled-design-63.jpg",
+      src: img1,
       title: "Best Training",
-      desc: "Get Train With The Best Mentors In The Fitness Industry",
+      desc: "Get Trained With The Best Mentors In The Fitness Industry",
     },
     {
-      src: "src/assets/Untitled-design-53.jpg",
+      src: img2,
       title: "Quality Equipment",
-      desc: "International Graded Equipments For Your Professional Fitness Journey",
+      desc: "International Graded Equipment For Your Professional Fitness Journey",
     },
     {
-      src: "src/assets/Untitled-design-54.jpg",
+      src: img3,
       title: "YOGA, ZUMBA And Many More",
-      desc: "Every Body Is Different That Why Everyone Custome Diet & Workout Plans",
+      desc: "Every Body Is Different, That's Why Everyone Gets Custom Diet & Workout Plans",
     },
   ];
 

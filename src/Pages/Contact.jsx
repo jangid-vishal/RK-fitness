@@ -3,6 +3,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
+import bgimg from "../assets/Untitled-design-64-1024x576.jpg"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -35,13 +36,10 @@ const Contact = () => {
       {/* Hero Section */}
       <section
         className="bg-cover bg-center h-[80vh] flex items-center justify-center"
-        style={{
-          backgroundImage:
-            "url('src/assets/Untitled-design-64-1024x576.jpg')",
-        }}
+        style={{ backgroundImage: `url(${bgimg})` }}
       >
         <div className=" p-6 rounded-lg">
-          <h1 className="text-4xl sm:text-5xl font-bold text-red-500">Contact Us</h1>
+          <h1 className="text-4xl sm:text-6xl font-bold text-white">CONTACT US</h1>
         </div>
       </section>
 

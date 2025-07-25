@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
+import Image from "../assets/Asset-2@2x.png"
 
 const Marquee = () => {
   const marqueeRef = useRef(null);
@@ -49,7 +50,7 @@ const Marquee = () => {
             <span className="text-white font-sans font-semibold">PUSH YOURSELF</span>
             <img
               ref={idx === 0 ? imageRef : null} // Only rotate the first image
-              src="src/assets/Asset-2@2x.png"
+              src={Image}
               alt="logo"
               className="w-8 h-8 object-contain transform" // transform is required!
             />

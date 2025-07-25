@@ -13,6 +13,16 @@ import CuppingTherapy from "../assets/cupping.png";
 import SteamBath from "../assets/bathing.png";
 import locationIcon from "../assets/Frame-19-7-1.jpg";
 import Navbar from "../Components/Navbar";
+import img1 from "../assets/Frame-8-8.jpg";
+import img2 from "../assets/Frame-9-6.jpg";
+import img3 from "../assets/Frame-10-7.jpg";
+import img4 from "../assets/Frame-11-6.jpg";
+import img5 from "../assets/Frame-12-9.jpg";
+import img6 from "../assets/Frame-13-9.jpg";
+import img7 from "../assets/Frame-14-6-1.jpg";
+import img8 from "../assets/Frame-15-4-1.jpg";
+import img9 from "../assets/Frame-16-11-1.jpg";
+import img10 from "../assets/Frame-17-5-1.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -29,16 +39,16 @@ const features = [
 ];
 
 const galleryImages = [
-  "src/assets/Frame-8-8.jpg",
-  "src/assets/Frame-9-6.jpg",
-  "src/assets/Frame-10-7.jpg",
-  "src/assets/Frame-11-6.jpg",
-  "src/assets/Frame-12-9.jpg",
-  "src/assets/Frame-13-9.jpg",
-  "src/assets/Frame-14-6-1.jpg",
-  "src/assets/Frame-15-4-1.jpg",
-  "src/assets/Frame-16-11-1.jpg",
-  "src/assets/Frame-17-5-1.jpg",
+   img1,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
+  img7,
+  img8,
+  img9,
+  img10,
 ];
 
 const PaschimVihar = () => {

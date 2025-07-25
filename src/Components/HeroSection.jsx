@@ -1,6 +1,8 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import AnimatedHeading from "./AnimatedHeading";
+import Img1 from "../assets/IMG_5012.png";
+import bgImage from '../assets/Untitled-design-57.jpg';
 
 const HeroSection = () => {
   const leftTextRef = useRef();
@@ -36,7 +38,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section className="h-screen bg-[url('src/assets/Untitled-design-57.jpg')] bg-cover bg-center text-white flex items-center justify-center relative">
+    <section  style={{ backgroundImage: `url(${bgImage})` }} className="h-screen  bg-cover bg-center text-white flex items-center justify-center relative">
 
       <div className="absolute inset-0 bg-black/75"></div>
 
@@ -45,7 +47,7 @@ const HeroSection = () => {
         <div className="w-[100%] sm:w-[40%] flex justify-end sm:justify-end">
           <img
             ref={imageRef}
-            src="src/assets/IMG_5012.PNG"
+            src={Img1}
             alt="Rohit Khatri"
             className="object-cover  sm:max-h-[100%] sm:w-auto w-[100%] sm:object-center object-right"
           />

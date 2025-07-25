@@ -72,7 +72,7 @@ const About = () => {
           ref={quoteRef}
           className="bg-black bg-opacity-20 p-5 rounded-lg max-w-3xl"
         >
-          <h1 className="text-4xl sm:text-7xl font-bold mb-6 text-white">
+          <h1 className="text-4xl sm:text-5xl font-bold mb-6 text-white">
             "Push your limits. Train like a beast. Become a legend."
           </h1>
           <p className="text-xl text-gray-300">— Rohit Khatri Gym</p>

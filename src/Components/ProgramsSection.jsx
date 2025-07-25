@@ -1,34 +1,41 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import treadmillImg from "../assets/Untitled-design-57.jpg";
+import discountImg from "../assets/DiscountForFemales.jpg";
+import strengthImg from "../assets/Untitled-design-59.jpg";
+import muscleImg from "../assets/Untitled-design-58.jpg";
+import largestGymImg from "../assets/LARGESTGYM.jpeg";
+import internationalEquipImg from "../assets/INTERNATIONALGRADEDEQUIPMENTS.jpeg";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const programs = [
-  {
+    {
     title: "CARDIO TRADMILL",
-    image: "src/assets/Untitled-design-57.jpg",
+    image: treadmillImg,
   },
   {
     title: "DISCOUNT FOR FEMALES",
-    image: "src/assets/DiscountForFemales.jpg",
+    image: discountImg,
   },
   {
-    title: "STRENGHT TRAINING",
-    image: "src/assets/Untitled-design-59.jpg",
+    title: "STRENGTH TRAINING",
+    image: strengthImg,
   },
   {
     title: "MUSCLE BUILDING",
-    image: "src/assets/Untitled-design-58.jpg",
+    image: muscleImg,
   },
   {
     title: "LARGEST GYM",
-    image: "src/assets/LARGESTGYM.jpeg",
+    image: largestGymImg,
   },
   {
     title: "INTERNATIONAL GRADED EQUIPMENTS",
-    image: "src/assets/INTERNATIONALGRADEDEQUIPMENTS.jpeg",
+    image: internationalEquipImg,
   },
+
 ];
 
 const ProgramsSection = () => {
